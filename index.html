@@ -17,15 +17,9 @@
     rel="stylesheet" />
   <style>
     body {
-      .roboto-regular {
+      roboto-regular {
         font-family: "Roboto", sans-serif;
         font-weight: 400;
-        font-style: normal;
-      }
-
-      .roboto-medium {
-        font-family: "Roboto", sans-serif;
-        font-weight: 500;
         font-style: normal;
       }
     }
@@ -38,7 +32,7 @@
       color: hsl(47, 88%, 63%);
     }
 
-    .hrdshadow {
+    .hshadow {
       box-shadow: 8px 8px 0px 1px rgba(0, 0, 0, 1);
       -webkit-box-shadow: 8px 8px 0px 1px rgba(0, 0, 0, 1);
       -moz-box-shadow: 8px 8px 0px 1px rgba(0, 0, 0, 1);
@@ -48,30 +42,30 @@
 
 <body class="bg flex items-center justify-center min-h-screen" role="body">
 
-  <div class="bg-white rounded-lg hrdshadow max-w-sm w-full p-6 border-black" role="card">
+  <!-- Card -->
+  <div class="bg-white rounded-lg hshadow max-w-sm w-full p-6" role="article" aria-labelledby="card-title"
+    aria-describedby="card-description">
     <!-- Image Section -->
-    <div class="relative" role="Image">
-      <img src="assets/images/illustration-article.svg" alt="Card Image"
-        class="rounded-t-lg w-full h-48 object-cover" />
+    <div class="relative">
+      <img src="./assets/images/illustration-article.svg" alt="Card Image" class="rounded-t-lg w-full h-48 object-cover"
+        role="img" aria-label="Decorative image for HTML & CSS foundations">
     </div>
     <!-- Content Section -->
-    <div class="p-4 .text-base">
+    <div class="p-4">
       <!-- Badge -->
       <span class="bg text-black roboto-medium font-semibold px-3 py-1 rounded-md">
         Learning
       </span>
-      <p class="text-gray-500 mt-2 roboto-regular">Published 21 Dec 2023</p>
-      <h2 class="text-gray-900 text-xl font-bold mt-3">
-        <a href="#">HTML & CSS foundations</a>
-      </h2>
-      <p class="text-gray-600 mt-2 roboto-regular">
-        These languages are the backbone of every website, defining structure,
-        content, and presentation.
+      <p class="text-gray-500 text-sm mt-2">Published 21 Dec 2023</p>
+      <h2 id="card-title" class="text-gray-900 text-xl font-bold mt-3">HTML & CSS foundations</h2>
+      <p id="card-description" class="text-gray-600 text-sm mt-2">
+        These languages are the backbone of every website, defining structure, content, and presentation.
       </p>
     </div>
     <!-- Author Section -->
-    <div class="flex items-center mt-4" role="auther">
-      <img src="assets/images/image-avatar.webp" alt="Author Image" class="w-10 h-10 rounded-full" />
+    <div class="flex items-center mt-4">
+      <img src="./assets/images/image-avatar.webp" alt="Greg Hooper" class="w-10 h-10 rounded-full" role="img"
+        aria-label="Photo of Greg Hooper">
       <p class="ml-3 text-gray-700 font-semibold">Greg Hooper</p>
     </div>
   </div>
