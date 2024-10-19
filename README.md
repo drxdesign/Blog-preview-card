@@ -14,9 +14,8 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+
 
 ## Overview
 
@@ -61,7 +60,7 @@ So. what I'm going to try to focus next is making this same design, but using as
 
 ## Author
 
-- Website - [Ziane Maamar](https://www.your-site.com)
+- Website - [Ziane Maamar](https://github.com/drxdesign)
 - Frontend Mentor - [@drxdesign](https://www.frontendmentor.io/profile/drxdesign)
 - Twitter - [@drxdesign](https://www.twitter.com/drxdesign)
 
